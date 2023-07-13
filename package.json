@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-mongoclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnpLabLive/nodejs-mongoclient.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnpLabLive/nodejs-mongoclient/issues"
+  },
+  "homepage": "https://github.com/tnpLabLive/nodejs-mongoclient#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
